@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar/page";
+import Navbar from "./components/Navbar";
 
 
 export default function Home() {
   return (
-    <main className="min-h-screen items-center">
-      <div className="z-10 w-full max-w-7xl px-80 pt-8 ">
+    <main className="min-h-screen p-4">
+    <div className="">
         <Navbar />
       </div>
     </main>

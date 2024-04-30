@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ChainPulse | Real-time Blockchain Data for Developers and Researchers",
   description: "Real-time Blockchain Data for Developers and Researchers",
+  openGraph: {
+    title: "ChainPulse | Real-time Blockchain Data for Developers and Researchers",
+    description: "Real-time Blockchain Data for Developers and Researchers",
+    images: [``],
+  },
 };
 
 export default function RootLayout({
