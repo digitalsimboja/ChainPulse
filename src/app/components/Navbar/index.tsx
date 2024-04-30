@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex sm:text-sm text-md justify-around  items-center md:px-4  px-3 cursor-pointer  ease-in-out transition-all relative">
+    <nav className="flex sm:text-sm text-md justify-between items-center  cursor-pointer  ease-in-out transition-all relative">
       <LogoLink />
       <DesktopNav />
 

@@ -7,22 +7,11 @@ const DesktopNav: React.FC = () => {
         <div className="relative group flex items-center">
           <Link href="" className="">About</Link>
           <IoChevronDownSharp className="ml-1 transform -translate-y-0.2 " />
-          <div className="absolute opacity-0 bg-black  z-[1000]  top-full left-0 group-hover:opacity-80 border border-gray-300 shadow-md p-4 rounded-md max-w-5xl h-[300px] transition-opacity duration-300">
+          <div className="absolute opacity-0 bg-gray-50  z-[1000]  top-full left-0 group-hover:opacity-80 border border-gray-300 shadow-md mt-2 p-4 rounded-md w-[400px] h-[200px] transition-opacity duration-300">
             <div className="flex flex-col space-y-4 ">
-              <h1 className="text-gray-500 uppercase">Projects</h1>
-              <ul className="text-white space-y-2">
-                <li>
-                  <i className="fas fa-robot"></i>AAVE
-                </li>
-                <li>
-                  <i className="fas fa-android"></i> 1Inch
-                </li>
-                <li>
-                  <i className="fas fa-user-secret"></i> Balancer
-                </li>
-                <li>
-                  <i className="fas fa-user-secret"></i> ...Other
-                </li>
+              <ul className="text-sm space-y-2">
+              <li>Vision</li>
+               <li>Team</li>
               </ul>
             </div>
         
